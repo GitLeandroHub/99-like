@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.webmanifest">
+    <title>99-like • Local-first</title>
+    <style>
+      html, body, #root { height: 100%; margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+      .container { max-width: 1024px; margin: 0 auto; padding: 16px; }
+      .card { border: 1px solid #e5e7eb; border-radius: 14px; padding: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.05); background: #fff; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center;}
+      .col { flex: 1 1 280px; }
+      .btn { padding: 10px 16px; border-radius: 10px; border: 1px solid #111827; background: #111827; color: #fff; cursor: pointer;}
+      .btn.secondary { background: #fff; color: #111827; }
+      .pill { font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid #e5e7eb; background: #f9fafb; }
+      .tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+      .tab { padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 10px; cursor: pointer; background: #f3f4f6; }
+      .tab.active { border-color: #111827; background: #111827; color: white; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; font-size: 12px; }
+      .list { display: grid; gap: 8px; }
+      .badge { background: #eef2ff; color: #3730a3; padding: 3px 6px; border-radius: 6px; font-size: 11px; }
+      .muted { color: #6b7280; }
+      .hstack { display:flex; align-items:center; gap:8px }
+      .vstack { display:flex; flex-direction:column; gap:8px }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
