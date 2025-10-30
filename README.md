@@ -1,6 +1,8 @@
 # 99-like (Local-first Super App) — Starter Kit
 
-![logo placeholder](99-like.gif)
+<p align="center">
+  <img src="99-like.gif" alt="Logo 99-like" width="35%">
+</p>
 
 Arquitetura: **PWA + CRDT (Automerge) + WebRTC (DataChannel) + OPFS/IndexedDB**, com **sinalização mínima** (host fino).
 Fluxos incluídos: **Conta digital (ledger simulado)**, **Mobilidade (corridas)**, **Comida (pedidos)** — todos no **mesmo barramento de eventos**.
